@@ -3,7 +3,7 @@ use strict;
 use base 'Exporter';
 
 use vars qw(@EXPORT_OK %EXPORT_TAGS);
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 BEGIN {
     use constant MP => exists($ENV{MOD_PERL});
