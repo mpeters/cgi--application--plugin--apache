@@ -1,5 +1,8 @@
 Revision history for Perl extension CGI::Application::Plugin::Apache
 
+1.02
+    - Fixed RT #32437 by fixing a bad hash in the Build.PL
+
 1.01
     - Fixed lots of compatability problems with mod_perl 2 and Apache2::Request
 
