@@ -29,7 +29,7 @@ my $build = $build_pkg->new(
             'HTML::GenerateUtil'=> 0,
 	},
     build_requires      => {
-        'Apache::Test',
+        'Apache::Test' => 1,
     },
     create_makefile_pl  => 'passthrough',
     create_readme       => 1,
